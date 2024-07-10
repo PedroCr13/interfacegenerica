@@ -1,3 +1,6 @@
+/*
+	Tipo limitado a subclasses Number (ela inclusive)
+*/
 class MyClass<T extends Number> implements Containment<T>{
 	T[] arrayRef;
 	
